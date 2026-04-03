@@ -2,15 +2,18 @@ import random
 import time
 from cartas import baralho
 
+
 def embaralhar(baralho):
     random.shuffle(baralho)
     return baralho
+
 
 def distribuir(baralho):
     metade = len(baralho) // 2
     baralho_um = baralho[:metade]
     baralho_dois = baralho[metade:]
     return baralho_um, baralho_dois
+
 
 def mostrar_carta(carta):
     print(f"""
@@ -20,6 +23,7 @@ def mostrar_carta(carta):
     3 - Peso: {carta["peso_kg"]:.2f}
     4 - Força: {carta["forca"]}
     """)
+
 
 def escolher_atributo(carta):
     mostrar_carta(carta)
@@ -43,6 +47,7 @@ def escolher_atributo(carta):
     elif escolha == 4:
         return "forca"
 
+
 def resolver_super_trunfo(mao_vencedor, mao_perdedor, carta_j1, carta_j2, nome_vencedor):
     mostrar_carta(carta_j1)
     time.sleep(3)
@@ -53,6 +58,7 @@ def resolver_super_trunfo(mao_vencedor, mao_perdedor, carta_j1, carta_j2, nome_v
     time.sleep(3)
     print(f"{nome_vencedor} venceu a rodada com a carta Super Trunfo!")
     return nome_vencedor
+
 
 def jogar_rodada(mao_j1, mao_j2, vez_do_jogador):
     carta_j1 = mao_j1[0]
