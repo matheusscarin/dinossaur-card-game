@@ -15,6 +15,6 @@ while len(mao_j1) > 0 and len(mao_j2) > 0:
     time.sleep(10)
 
 if len(mao_j2) == 0:
-    print("\nO JOGADOR VENCEU!")
+    print("\nO JOGADOR VENCEU A PARTIDA!")
 elif len(mao_j1) == 0:
-    print("\nA MÁQUINA VENCEU!")
+    print("\nA MÁQUINA VENCEU A PARTIDA!")
