@@ -39,4 +39,5 @@ O objetivo desse projeto foi colocar em prática o aprendizado adquirido na Tril
 ## Autor :bust_in_silhouette:
 
 Matheus Scarin Medeiros
+
 [Linkedin](https://www.linkedin.com/in/matheusscarin/)
