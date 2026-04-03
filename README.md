@@ -1,4 +1,4 @@
-<h1 align="center"> Jogo de Cartas de Dinossauro :sauropod: <h1>
+<h1 align="center"> Jogo de Cartas de Dinossauro :sauropod: </h1>
 
 Trata-se de um jogo de cartas semelhante ao famoso Super Trunfo, desenvolvido em Python como primeiro projeto pessoal durante a minha transição de carreira para Engenharia de Software.
 
